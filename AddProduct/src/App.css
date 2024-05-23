@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+body{
+  min-height: 70%;
+  background-color: #ccc;
+
+}
+
+.container {
+  display: flex;
+  height: 50vh;
+  justify-content: space-evenly;
+  padding: 60px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.product-list,
+.cart {
+  width: 35%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 50px;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.total-price {
+  margin-top: 20px;
+  text-align: right;
+}
