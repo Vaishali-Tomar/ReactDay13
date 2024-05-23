@@ -1,0 +1,15 @@
+.note{
+    
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: rgb(11, 58, 167);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.text-name{
+    color: rgb(11, 58, 167);
+    background-color: aliceblue;
+     padding: 30px;
+     margin: 5px;
+     font-size: large;
+}
